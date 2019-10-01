@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		976EBFFE233F76890046039C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976EBFFD233F76890046039C /* AppDelegate.swift */; };
-		976EC000233F76890046039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976EBFFF233F76890046039C /* SceneDelegate.swift */; };
 		976EC002233F76890046039C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976EC001233F76890046039C /* ViewController.swift */; };
 		976EC005233F76890046039C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976EC003233F76890046039C /* Main.storyboard */; };
 		976EC007233F768A0046039C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976EC006233F768A0046039C /* Assets.xcassets */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		976EBFFA233F76890046039C /* VKMenuDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKMenuDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		976EBFFD233F76890046039C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		976EBFFF233F76890046039C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		976EC001233F76890046039C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		976EC004233F76890046039C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		976EC006233F768A0046039C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				976EBFFD233F76890046039C /* AppDelegate.swift */,
-				976EBFFF233F76890046039C /* SceneDelegate.swift */,
 				976EC02E23410ABA0046039C /* Controller */,
 				976EC02B2340FF4E0046039C /* Supporting file */,
 				976EC024233F9B390046039C /* Cells */,
@@ -215,7 +212,6 @@
 				976EC002233F76890046039C /* ViewController.swift in Sources */,
 				976EC01B233F88220046039C /* VKUserInfoCell.swift in Sources */,
 				976EBFFE233F76890046039C /* AppDelegate.swift in Sources */,
-				976EC000233F76890046039C /* SceneDelegate.swift in Sources */,
 				976EC012233F77860046039C /* VKUserInfo.swift in Sources */,
 				976EC028233FB54D0046039C /* TableValues.swift in Sources */,
 				976EC02A2340C9530046039C /* Settings.swift in Sources */,
@@ -367,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XJBTP6G53;
 				INFOPLIST_FILE = VKMenuDEMO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XJBTP6G53;
 				INFOPLIST_FILE = VKMenuDEMO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
